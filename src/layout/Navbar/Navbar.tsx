@@ -1,8 +1,7 @@
-import React from 'react'
 import { Container, StyledNav } from './Navbar.styles'
 import { FiMenu } from 'react-icons/fi';
 import { ButtonFill } from '../../styles/styles';
-import { NavLink, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { useAppDispatch } from '../../hooks/redux';
 import { toggleMenu } from '../../store/menu/menuSlice';
 import { toggleCreateNoteModal } from '../../store/modal/modalSlice';

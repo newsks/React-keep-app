@@ -1,4 +1,3 @@
-import React from 'react'
 import { useParams } from 'react-router-dom';
 import { MainWrapper } from '../../components';
 import { useAppSelector } from '../../hooks/redux'
@@ -10,7 +9,7 @@ const TagNotes = () => {
 
   const { mainNotes } = useAppSelector((state) => state.notesList);
 
-  let notes: Note[] = [];
+  const notes: Note[] = [];
   mainNotes.forEach((note) => {
     if (note.tags.find(({ tag }) => tag === name)) {
       notes.push(note);

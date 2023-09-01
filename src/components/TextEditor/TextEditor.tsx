@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ReactQuill from 'react-quill'
 import { Container } from './TextEditor.styles'
 import 'react-quill/dist/quill.snow.css';

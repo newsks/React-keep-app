@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaTimes } from 'react-icons/fa';
 import { useAppDispatch } from '../../../hooks/redux';
 import { readNote } from '../../../store/notesList/notesListSlice';

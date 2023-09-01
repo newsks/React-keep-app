@@ -1,4 +1,3 @@
-import React from 'react'
 import { NotesIconBox } from '../../styles/styles';
 import { Card, ContentBox, FooterBox, TagsBox, TopBox } from './NoteCard.styles';
 import { BsFillPinFill } from 'react-icons/bs';

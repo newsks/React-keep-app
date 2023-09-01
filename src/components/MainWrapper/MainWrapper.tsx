@@ -1,4 +1,3 @@
-import React from 'react'
 import { NotesContainer } from '../../styles/styles';
 import { Note } from '../../types/note'
 import NoteCard from '../NoteCard/NoteCard';
