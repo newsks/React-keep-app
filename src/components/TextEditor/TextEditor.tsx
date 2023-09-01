@@ -38,7 +38,6 @@ const modules = {
 
 const TextEditor = ({ color, value, setValue }: TextEditorProps) => {
 
-  console.log(value);
 
   return (
     <Container noteColor={color}>

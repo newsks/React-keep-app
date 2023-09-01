@@ -49,7 +49,7 @@ const CreateNoteModal = () => {
       return;
     }
 
-    const date = dayjs().format("DD/MM/YY h:mm A");
+    const date = dayjs().format("YY/MM/DD A h:mm");
 
     let note: Partial<Note> = {
       title: noteTitle,

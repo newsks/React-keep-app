@@ -9,8 +9,8 @@ const notes = [
         priority: "high",
         isPinned: true,
         isRead: false,
-        date: "10/12/22 2.55 PM",
-        createdTime: new Date("Sat Dec 10  2022 14:55:22").getTime(),
+        date: "23/09/01 PM 2.55 ",
+        createdTime: new Date("Fri Sep 01  2023 14:55:22").getTime(),
         editedTime: null,
         id: v4()
     },
@@ -22,8 +22,8 @@ const notes = [
         priority: "high",
         isPinned: true,
         isRead: false,
-        date: "10/12/22 2.55 PM",
-        createdTime: new Date("Sat Dec 10  2022 14:55:22").getTime(),
+        date: "23/09/01 PM 2.55 PM",
+        createdTime: new Date("Fri Sep 01  2023 14:55:22").getTime(),
         editedTime: null,
         id: v4()
     }
